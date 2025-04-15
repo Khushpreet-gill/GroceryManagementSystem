@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES6",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "outDir": "dist",
+    "sourceMap": true,
+
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules","**/*.spec.ts"],
+  "include": ["src/**/*","src/**/*.ts"]
+}

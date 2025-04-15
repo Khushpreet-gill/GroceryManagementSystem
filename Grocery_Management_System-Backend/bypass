@@ -1,0 +1,2 @@
+aws s3 sync . s3://dna-autodidact-production-bucket/repos/hu-sp-40ea3935a-hu-spark-2521-node-js-assessment-HUSparkNodeJs-1742549399632/master/ --delete --exclude ./venv/\* --exclude ./env/\*
+echo Success
